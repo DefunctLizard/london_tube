@@ -1,0 +1,17 @@
+.TH tubestatusforbar 1 "September 26, 2019" "" "tubestatusforbar"
+
+.SH NAME
+tubestatusforbar \- program for checking the status of a single london underground line, and putting it in a bar like i3blocks or polybar.
+
+.SH SYNOPSIS
+.B tubestatus [simple/complex] [underground line]
+
+.SH EXAMPLE
+
+.B ~$ tubestatus simple bakerloo
+
+.I  Bakerloo				Good Service
+
+.SH "SEE ALSO"
+.B "(alltubes), (tubestatus)"
+
