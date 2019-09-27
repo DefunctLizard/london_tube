@@ -17,15 +17,17 @@ To run this script you will need to install [jq](https://stedolan.github.io/jq/d
 
 ## Install
 
-```sh
+```
 make install 
 ```
 or
-```sh
-cp src/tubestatus /usr/local/bin/tubestatus
-chmod 755 /usr/local/bin/tubestatus
-cp src/tubestatus /usr/local/bin/alltubes
-chmod 755 /usr/local/bin/alltubes
+```
+	cp src/alltubes /usr/local/bin/alltubes
+	chmod 755 /usr/local/bin/alltubes
+	cp src/tubestatus /usr/local/bin/tubestatus
+	chmod 775 /usr/local/bin/tubestatus
+	cp man/alltubes.man /usr/share/man/man1/alltubes.1
+  cp man/tubestatus.man /usr/share/man/man1/tubestatus.1
 ```
 ## Usage
 
