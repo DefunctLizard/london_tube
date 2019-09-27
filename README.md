@@ -22,12 +22,12 @@ make install
 ```
 or
 ```
-	cp src/alltubes /usr/local/bin/alltubes
-	chmod 755 /usr/local/bin/alltubes
-	cp src/tubestatus /usr/local/bin/tubestatus
-	chmod 775 /usr/local/bin/tubestatus
-	cp man/alltubes.man /usr/share/man/man1/alltubes.1
-  cp man/tubestatus.man /usr/share/man/man1/tubestatus.1
+cp src/alltubes /usr/local/bin/alltubes
+chmod 755 /usr/local/bin/alltubes
+cp src/tubestatus /usr/local/bin/tubestatus
+chmod 775 /usr/local/bin/tubestatus
+cp man/alltubes.man /usr/share/man/man1/alltubes.1
+cp man/tubestatus.man /usr/share/man/man1/tubestatus.1
 ```
 ## Usage
 
