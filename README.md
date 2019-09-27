@@ -38,6 +38,6 @@ cp man/tubestatus.man /usr/share/man/man1/tubestatus.1
 ```
 ## Usage
 
-London Tube is easy to use, just type `alltubes` to see every tube line and their status, or `tubestatus <tube line>` to see what status an individual tube's status is.
+London Tube is easy to use, just type `alltubes` to see every tube line and their status, or `tubestatus [tube line]` to see what status an individual tube's status is.
 
 More info is available in the man page.
