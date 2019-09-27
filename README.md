@@ -1,4 +1,4 @@
-# tubestatus
+# London Tube
 Access the London Tube lines status in real-time from your terminal.
 
 ## Installation
