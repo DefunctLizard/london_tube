@@ -16,7 +16,12 @@ To run this script you will need to install [jq](https://stedolan.github.io/jq/d
 - Other OS        `https://stedolan.github.io/jq/download/`
 
 ## Install
-
+First, clone the repo.
+```
+git clone https://github.com/DefunctLizard/london_tubes
+cd london_tubes
+```
+Then, install it.
 ```
 make install 
 ```
