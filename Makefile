@@ -11,3 +11,4 @@ uninstall:
 	rm -f /usr/local/bin/tubestatus
 	rm -f /usr/local/bin/alltubes
 	rm -f /usr/share/man/man1/alltubes.1
+	rm -f /usr/share/man/man1/tubestatus.1
