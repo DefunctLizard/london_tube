@@ -1,0 +1,17 @@
+#!/bin/bash
+# Authors:
+#
+# Matthieu Petiteau <mpetiteau.pro@gmail.com>
+# Grant Handy <grantshandy@gmail.com>
+#
+# Date: 26.09.2019
+#
+# This script fetches the tube line statuses from the TFL API https://api.tfl.gov.uk and returns the results in the terminal.
+
+
+
+if [[ $1 == "" ]]; then
+	echo "Please type the name of the line you would like to view."
+else
+	alltubes | grep $1
+fi
