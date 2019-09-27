@@ -10,8 +10,18 @@
 
 
 
-if [[ $1 == "" ]]; then
+if [[ $2 == "" ]]; then
 	echo "Please type the name of the line you would like to view."
 else
-	alltubes | grep -i $1
+	COMPLEX=$(alltubes | grep -i $1)
+fi
+
+SIMPLE=$(echo "$COMPLEX" | sed 's/\●//g')
+
+if [[ $1 == "complex" ]]; then
+	echo $COMPLEX
+fi
+
+if [[ $1 == "simple" ]]; then
+	echo $SIMPLE
 fi
