@@ -1,4 +1,4 @@
-# London Tube
+# London Tubes
 Access the London Tube lines status in real-time right from your terminal.
 
 ![tube-gif](https://i.imgur.com/TnAclV0.gif)
