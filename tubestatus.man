@@ -1,0 +1,17 @@
+.TH alltubes 1 "September 26, 2019" "" "alltubes"
+
+.SH NAME
+alltubes \- program for checking the status of a single london underground line.
+
+.SH SYNOPSIS
+.B tubestatus [underground line]
+
+.SH EXAMPLE
+
+.B ~$ tubestatus bakerloo
+
+.I  Bakerloo				Good Service
+
+.SH "SEE ALSO"
+.B "(alltubes)"
+
