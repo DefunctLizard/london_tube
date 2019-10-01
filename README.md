@@ -10,11 +10,10 @@ I chose to include `tubestatus` on purpose, not just because of complexity. It i
 To run this script you will need to install [jq](https://stedolan.github.io/jq/download) 
 - MacOS           `brew install jq`
 - Ubuntu / Debian `apt-get install jq`
-- Fedora          `dnf install jq"`
+- Fedora          `dnf install jq`
 - openSUSE        `zipper install jq`
 - Arch            `sudo pacman -Sy jq`
 - BSD             `pkg install jq`
-- Windows         `chocolatey install jq`
 - Other OS        `https://stedolan.github.io/jq/download/`
 
 ## Install
