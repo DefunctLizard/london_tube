@@ -3,7 +3,7 @@ Access the London Tube lines status in real-time right from your terminal.
 
 ![tube-gif](https://i.imgur.com/TnAclV0.gif)
 
-I chose to include `tubestatus` on purpose, not just because of complexity. It is designed in a way that someone could implement it in a bar like polybar of i3blocks.
+I chose to include `tubestatus` on purpose, not just because of complexity. It is designed in a way that someone could implement it in a bar such as polybar or i3blocks.
 
 ## Installation
 ### Dependencies
@@ -16,7 +16,7 @@ To run this script you will need to install [jq](https://stedolan.github.io/jq/d
 - BSD             `pkg install jq`
 - Other OS        `https://stedolan.github.io/jq/download/`
 
-## Install
+### Install
 First, clone the repo.
 ```
 git clone https://github.com/DefunctLizard/london_tubes
