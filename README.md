@@ -1,5 +1,5 @@
 <h1 align="center">London Tubes</h1>
-Access the London Tube lines status in real-time right from your terminal.
+Access the London Tube lines status in real-time right from your unix-like terminal.
 
 ![tube-gif](https://i.imgur.com/TnAclV0.gif)
 
@@ -37,6 +37,6 @@ cp man/tubestatus.man /usr/share/man/man1/tubestatus.1
 ```
 ## Usage
 
-London Tube is easy to use, just type `alltubes` to see every tube line and their status, or `tubestatus [tube line]` to see what status an individual tube's status is.
+London Tube is easy to use, just type `alltubes` to see every tube line and their status, or `tubestatus [tube line]` to see what status an individual line's status is.
 
-More info is available in the man page.
+More info is available in the man pages.
